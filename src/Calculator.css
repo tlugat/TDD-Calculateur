@@ -1,0 +1,38 @@
+table {
+    /* border: 1px solid black; */
+    border-collapse: separate;
+    border-spacing: 8px 8px;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4px;
+}
+
+thead {
+    height: 100px;
+}
+
+thead th:first-child {
+    border-radius: 4px;
+    background-color: #dbd8f0;
+}
+
+td, th {
+    text-align: center;
+    padding: 30px;
+}
+td {
+    background-color: #afbed1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clear {
+    background-color: #56cbf9;
+}
+.operator {
+    background-color: #eac5d8;
+}
+.equal {
+    background-color: #7fbeeb;
+}
